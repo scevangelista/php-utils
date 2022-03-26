@@ -1,6 +1,6 @@
 ## php-utils
 
-This project have a Classes of utilities for use in projects
+This project have Classes of utilities for use in projects
 
 ##
 ### How to Use :electric_plug: 
