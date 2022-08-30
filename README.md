@@ -8,6 +8,9 @@ This project have Classes of utilities for use in projects
 **Requirements**
 - PHP
 
+
+## StringUtil:
+
 **Instructions to run:**
 - First, import the class for your php file
 
