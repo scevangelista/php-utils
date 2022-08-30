@@ -10,7 +10,7 @@ This project have Classes of utilities for use in projects
 <br/>
 
 
-## Class StringUtil:
+### Class StringUtil:
 
 **Instructions to run:**
 - First, import the class for your php file
