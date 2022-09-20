@@ -1,8 +1,10 @@
 <?php
+namespace Utilities;
+
 /**
  * Utilities to work with Strings
  */
-class StringUtil{
+class Strings{
     /**
      * Capitalize the String
      * @param String $low

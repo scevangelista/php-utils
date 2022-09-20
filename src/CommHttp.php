@@ -1,15 +1,17 @@
 <?php
+namespace Utilities;
+
 /**
- * Utilities to work with Strings
+ * Utilities to work with CURL
  */
-class CommUtil
+class CommHttp
 {
     /**
      * Execute a get to server and return the content String
      */
     public static function get(String $url, Array $params = []) : Object
     {
-        $ret = new stdClass();
+        $ret = new \stdClass();
 
         if(count($params) > 0){
             $urlParams = "?";
