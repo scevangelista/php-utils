@@ -10,8 +10,6 @@ This project have Classes of utilities for use in projects
 <br/>
 
 
-### Class StringUtil:
-
 **Instructions to run:**
 - First, import the class for your php file
 
@@ -22,6 +20,7 @@ require_once('src/CommHttp.php');
 
 - Call the static methods in your code
 
+### Class Strings:
 ##
 **Methods:**
 - upper : This function returns a value in uppercase correcting the accents. Example:
@@ -37,6 +36,11 @@ $upper = Strings::upper('textão');
 $cleared = Strings::clear('<html>');
 //Expected in $cleared: html
 ```
+
+
+### Class CommHttp:
+##
+**Methods:**
 
 - get : Execute a GET request of URL. Example:  
 
