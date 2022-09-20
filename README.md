@@ -20,8 +20,8 @@ require_once('src/CommHttp.php');
 
 - Call the static methods in your code
 
-### Class Strings:
 ##
+### Class Strings:
 **Methods:**
 - upper : This function returns a value in uppercase correcting the accents. Example:
 
@@ -38,8 +38,8 @@ $cleared = Strings::clear('<html>');
 ```
 
 
-### Class CommHttp:
 ##
+### Class CommHttp:
 **Methods:**
 
 - get : Execute a GET request of URL. Example:  
