@@ -23,7 +23,7 @@ class Strings{
      */
     public static function clear(String $value) : String
     {        
-        $charsToRemove = array(".","/","-","(",")","<",">","\/","|","=","'","?","%","!","@");
+        $charsToRemove = array(".","/","-","(",")","<",">","\/","\\","|","=","'",'"',"?","%","!","@");
         return str_replace($charsToRemove,"",$value);
     }
 }
