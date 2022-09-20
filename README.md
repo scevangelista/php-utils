@@ -6,7 +6,7 @@ This project have Classes of utilities for use in projects
 ### How to Use :electric_plug: 
 
 **Requirements**
-- PHP 
+- PHP 7+
 <br/>
 
 
