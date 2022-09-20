@@ -4,7 +4,8 @@ namespace Utilities;
 /**
  * Utilities to work with Strings
  */
-class Strings{
+class Strings 
+{
     /**
      * Capitalize the String
      * @param String $low

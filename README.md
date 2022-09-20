@@ -16,8 +16,8 @@ This project have Classes of utilities for use in projects
 - First, import the class for your php file
 
 ```
-require_once('StringUtil.php');
-require_once('CommUtil.php');
+require_once('src/Strings.php');
+require_once('src/CommHttp.php');
 ```
 
 - Call the static methods in your code
@@ -27,20 +27,20 @@ require_once('CommUtil.php');
 - upper : This function returns a value in uppercase correcting the accents. Example:
 
 ```
-$upper = StringUtil::upper('textão');
+$upper = Strings::upper('textão');
 //Expected in $upper: TEXTÃO
 ```  
 
 - clear : Remove especial caracters of string. Example:  
 
 ```
-$cleared = StringUtil::clear('<html>');
+$cleared = Strings::clear('<html>');
 //Expected in $cleared: html
 ```
 
 - get : Execute a GET request of URL. Example:  
 
 ```
-$res = CommUtil::get('http://localhost:8000', ['p' => 'teste']);
+$res = CommHttp::get('http://localhost:8000', ['p' => 'teste']);
 //Expected in $res: body response of http://localhost:8000?p=teste
 ```
