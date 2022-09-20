@@ -17,6 +17,7 @@ This project have Classes of utilities for use in projects
 
 ```
 require_once('StringUtil.php');
+require_once('CommUtil.php');
 ```
 
 - Call the static methods in your code
@@ -35,4 +36,11 @@ $upper = StringUtil::upper('textão');
 ```
 $cleared = StringUtil::clear('<html>');
 //Expected in $cleared: html
+```
+
+- get : Execute a GET request of URL. Example:  
+
+```
+$res = CommUtil::get('http://localhost:8000', ['p' => 'teste']);
+//Expected in $res: body response of http://localhost:8000?p=teste
 ```
