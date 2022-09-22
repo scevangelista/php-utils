@@ -8,12 +8,12 @@ class Strings
 {
     /**
      * Capitalize the String
-     * @param String $low
+     * @param String $value
      * @return String
      */
     public static function upper(String $value) : String
     {
-        return strtr(strtoupper($value),"àáâãäåçèéêëìíîïñòóôõöøùüú","ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÑÒÓÔÕÖØÙÜÚ");
+        return strtr(strtoupper($value), "àáâãäåçèéêëìíîïñòóôõöøùüú", "ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÑÒÓÔÕÖØÙÜÚ");
     }
 
 
@@ -24,7 +24,7 @@ class Strings
      */
     public static function clear(String $value) : String
     {        
-        $charsToRemove = array(".","/","-","(",")","<",">","\/","\\","|","=","'",'"',"?","%","!","@");
-        return str_replace($charsToRemove,"",$value);
+        $remove = Array(".", "/", "-", "(", ")", "<", ">", "\/", "\\", "|", "=", "'", '"', "?", "%", "!", "@");
+        return str_replace($remove, "", $value);
     }
 }
