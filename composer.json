@@ -1,0 +1,13 @@
+{
+    "name": "scevangelista/php-utils",
+    "description": "Utilities to PHP development",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Utilities\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.3"
+    }
+}
