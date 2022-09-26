@@ -15,6 +15,17 @@ class Strings
     {
         return strtr(strtoupper($value), "àáâãäåçèéêëìíîïñòóôõöøùüú", "ÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÑÒÓÔÕÖØÙÜÚ");
     }
+    
+    
+    /**
+     * Remove accent
+     * @param String $value
+     * @return String
+     */
+    public static function removeAccent(String $value) : String
+    {
+        return strtr($value, "àáâãäåçèéêëìíîïñòóôõöøùüúÀÁÂÃÄÅÇÈÉÊËÌÍÎÏÑÒÓÔÕÖØÙÜÚ", "aaaaaaceeeeiiiinooooo0uuuAAAAAACEEEEIIIINOOOOO0UUU");
+    }
 
 
     /**
